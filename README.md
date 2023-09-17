@@ -4,21 +4,37 @@ This FastAPI project provides real-time weather data, generates a funny summary 
 
 ## 📂 Project Structure
 
-weather_api/
-├── main.py # Entry point for your FastAPI app
-├── api/
-│ └── weather.py # Endpoint functions and logic
-├── services/
-│ ├── fetcher.py # Logic for fetching data from WeatherAPI
-│ ├── openai_service.py # Logic for interacting with OpenAI to generate funny summaries
-│ ├── activity.py # Logic for activity recommendations
-│ └── outfit.py # Logic for outfit recommendations
-├── tests/
-│ ├── test_weather.py
-│ ├── test_activity.py
-│ └── test_outfit.py
-├── requirements.txt # Main project dependencies
-└── test_requirements.txt # Testing-specific dependencies
+- `weather_api/`: The root directory of the project.
+
+    - `main.py`: The entry point for your FastAPI app.
+
+- `api/`: Contains endpoint functions and logic.
+
+    - `weather.py`: Logic related to weather data endpoints.
+
+- `services/`: Contains various services and logic used by the app.
+
+    - `fetcher.py`: Logic for fetching data from the WeatherAPI.
+
+    - `openai_service.py`: Logic for interacting with OpenAI to generate funny summaries.
+
+    - `activity.py`: Logic for activity recommendations.
+
+    - `outfit.py`: Logic for outfit recommendations.
+
+- `tests/`: Contains test cases for the project.
+
+    - `test_weather.py`: Tests related to weather functionality.
+
+    - `test_activity.py`: Tests related to activity recommendations.
+
+    - `test_outfit.py`: Tests related to outfit recommendations.
+
+- `requirements.txt`: Lists the main project dependencies.
+
+- `test_requirements.txt`: Lists the testing-specific dependencies.
+
+
 
 ## 🔧 Setup
 
